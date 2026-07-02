@@ -16,7 +16,7 @@ FAQBot is a smart FAQ assistant built on Azure OpenAI. Give it a system prompt, 
 
 ## Stack
 
-- Azure OpenAI (GPT-4.1-nano, Sweden Central)
+- Azure OpenAI (GPT-5-mini, West US)
 - Node.js + Express
 - Vanilla JS frontend
 
@@ -36,7 +36,7 @@ Create a `.env` file:
 AZURE_OPENAI_KEY=your_key_here
 AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
 AZURE_OPENAI_DEPLOYMENT=your_deployment_name
-AZURE_OPENAI_API_VERSION=2024-12-01-preview
+AZURE_OPENAI_API_VERSION=2024-your_version
 ```
 
 Then:
@@ -53,7 +53,7 @@ Open `http://localhost:3000`
 
 1. Go to portal.azure.com
 2. Create an Azure OpenAI resource
-3. Go to Azure AI Foundry → Deploy gpt-4.1-nano
+3. Go to Azure AI Foundry → Deploy gpt-5-mini
 4. Copy endpoint and key into `.env`
 
 ---
